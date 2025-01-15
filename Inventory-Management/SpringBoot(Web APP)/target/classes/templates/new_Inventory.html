@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Add New Inventory Item</title>
+	<link rel="stylesheet"
+		  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<a class="navbar-brand" href="/dashboard">Store Inventory</a>
+	<div class="collapse navbar-collapse">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="/page/1">Inventory List</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<div class="container mt-4">
+	<h1>Add New Inventory Item</h1>
+	<hr>
+	<form th:action="@{/saveInventory}" th:object="${Inventory}" method="POST">
+		<div class="form-group">
+			<label>Product Name</label>
+			<input type="text" th:field="*{productname}" placeholder="Product Name" class="form-control">
+		</div>
+		<div class="form-group">
+			<label>Price</label>
+			<input type="text" th:field="*{price}" placeholder="Price" class="form-control">
+		</div>
+		<div class="form-group">
+			<label>Margin Price</label>
+			<input type="text" th:field="*{marginprice}" placeholder="Margin Price" class="form-control">
+		</div>
+		<div class="form-group">
+			<label>Type</label>
+			<input type="text" th:field="*{type}" placeholder="Type" class="form-control">
+		</div>
+		<button type="submit" class="btn btn-info">Save Inventory</button>
+	</form>
+	<a th:href="@{/page/1}" class="btn btn-secondary mt-2">Back to Inventory List</a>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
