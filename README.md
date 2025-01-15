@@ -166,21 +166,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## Contributing
-Contributions are welcome! Feel free to submit a pull request or open an issue.
-
----
-
-## Acknowledgments
-- **Spring Boot** for simplifying backend development.
-- **Thymeleaf** for intuitive HTML templates.
-- **Bootstrap** for responsive design.
-- **Chart.js** for beautiful visualizations.
-
----
-
-## Contact
-For questions or feedback, reach out to:
-- **Your Name**: [your.email@example.com](mailto:your.email@example.com)
-- **GitHub**: [https://github.com/yourusername](https://github.com/yourusername)
 
