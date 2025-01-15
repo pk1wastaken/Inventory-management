@@ -3,7 +3,7 @@
 Welcome to the **Store Inventory Management System**, a web-based application built with **Spring Boot** and **Thymeleaf** to manage inventory data efficiently. This application includes advanced features such as sorting, filtering, pagination, chart-based analytics, CSV export, and bulk operations, all with a clean and responsive user interface.
 
 ---
-
+## Demo : Demo-095096.mp4
 ## Features
 
 ### 1. Dashboard with Pie Chart Analytics
