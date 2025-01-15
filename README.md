@@ -29,17 +29,6 @@ Welcome to the **Store Inventory Management System**, a web-based application bu
 ### 6. Conditional Row Highlighting
 - Automatically highlight rows where the margin price is below a defined threshold.
 
----
-
-## Screenshots
-
-### Dashboard
-![Dashboard Screenshot](#)
-
-### Inventory List
-![Inventory List Screenshot](#)
-
----
 
 ## Technologies Used
 
